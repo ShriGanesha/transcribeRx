@@ -1,0 +1,61 @@
+# Dependencies
+node_modules/
+__pycache__/
+*.pyc
+*.pyo
+.Python
+venv/
+env/
+.venv/
+
+# Build outputs
+build/
+dist/
+*.egg-info/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+*.env
+.env.vertex-ai.example
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+tfplan
+*.tfvars
+!terraform.tfvars.example
+
+# Google Cloud
+*.json
+!package.json
+!package-lock.json
+!tsconfig.json
+creds/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Test
+coverage/
+.pytest_cache/
+
+# Misc
+*.zip
+*.tar.gz
+
+scripts/*
+!scripts/deploy-all.sh
+/scripts/terraform.tfvars.example
