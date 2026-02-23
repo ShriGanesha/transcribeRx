@@ -1,0 +1,3 @@
+project_id       = "transcriberx-477408"
+region           = "us-central1"
+deepgram_api_key = "your-deepgram-api-key-here"
